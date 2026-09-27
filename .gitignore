@@ -1,0 +1,19 @@
+# 虚拟环境
+.venv/
+venv/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 密钥：只提交 .env.example，绝不提交 .env
+.env
+
+# 运行日志
+logs/
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/

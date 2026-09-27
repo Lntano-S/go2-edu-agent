@@ -1,0 +1,10 @@
+[project]
+name = "go2-edu-agent"
+version = "0.1.0"
+description = "手搓 Agent：自己写的 loop + tools + executor，接本地 LLM"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.40",
+    "python-dotenv>=1.0",
+]
